@@ -9,9 +9,9 @@ import javax.crypto.Cipher
 import javax.crypto.KeyGenerator
 
 @State(Scope.Benchmark)
-@BenchmarkMode(Mode.Throughput)
-@Warmup(iterations = 1)
-@Measurement(iterations = 1, batchSize = 1)
+@BenchmarkMode(Mode.All)
+@Warmup(iterations = 2)
+@Measurement(iterations = 2, batchSize = 2)
 @ExperimentalStdlibApi
 open class CompareEncryptAlgorithms {
     private val shaDigest = MessageDigest.getInstance("SHA-256")
