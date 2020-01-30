@@ -1,0 +1,61 @@
+Benchmark                                                       Mode      Cnt         Score         Error  Units
+CompareEncryptAlgorithms.decryptAES256                         thrpt       10  15174253,218 ± 1910907,139  ops/s
+CompareEncryptAlgorithms.decryptRSA                            thrpt       10       321,759 ±      34,216  ops/s
+CompareEncryptAlgorithms.encryptAES256                         thrpt       10  13903845,590 ± 1959430,792  ops/s
+CompareEncryptAlgorithms.encryptRSA                            thrpt       10     10463,757 ±     805,320  ops/s
+CompareEncryptAlgorithms.hashSHA256                            thrpt       10   2204099,462 ±  190599,508  ops/s
+CompareEncryptAlgorithms.decryptAES256                          avgt       10        ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.decryptRSA                             avgt       10         0,004 ±       0,001   s/op
+CompareEncryptAlgorithms.encryptAES256                          avgt       10        ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.encryptRSA                             avgt       10        ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.hashSHA256                             avgt       10        ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.decryptAES256                        sample  2433217        ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.00    sample                    ≈ 0                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.50    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.90    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.95    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.99    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.999   sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p0.9999  sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.decryptAES256:decryptAES256·p1.00    sample                  0,001                 s/op
+CompareEncryptAlgorithms.decryptRSA                           sample    30922         0,003 ±       0,001   s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.00          sample                  0,003                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.50          sample                  0,003                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.90          sample                  0,004                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.95          sample                  0,004                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.99          sample                  0,005                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.999         sample                  0,007                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p0.9999        sample                  0,011                 s/op
+CompareEncryptAlgorithms.decryptRSA:decryptRSA·p1.00          sample                  0,031                 s/op
+CompareEncryptAlgorithms.encryptAES256                        sample  2505676        ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.00    sample                    ≈ 0                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.50    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.90    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.95    sample                 ≈ 10⁻⁷                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.99    sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.999   sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p0.9999  sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptAES256:encryptAES256·p1.00    sample                  0,001                 s/op
+CompareEncryptAlgorithms.encryptRSA                           sample  1064772        ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.00          sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.50          sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.90          sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.95          sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.99          sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.999         sample                 ≈ 10⁻³                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p0.9999        sample                  0,001                 s/op
+CompareEncryptAlgorithms.encryptRSA:encryptRSA·p1.00          sample                  0,018                 s/op
+CompareEncryptAlgorithms.hashSHA256                           sample  3551661        ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.00          sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.50          sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.90          sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.95          sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.99          sample                 ≈ 10⁻⁶                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.999         sample                 ≈ 10⁻⁵                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p0.9999        sample                 ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.hashSHA256:hashSHA256·p1.00          sample                  0,004                 s/op
+CompareEncryptAlgorithms.decryptAES256                            ss       10        ≈ 10⁻⁵                 s/op
+CompareEncryptAlgorithms.decryptRSA                               ss       10         0,005 ±       0,003   s/op
+CompareEncryptAlgorithms.encryptAES256                            ss       10        ≈ 10⁻⁵                 s/op
+CompareEncryptAlgorithms.encryptRSA                               ss       10        ≈ 10⁻⁴                 s/op
+CompareEncryptAlgorithms.hashSHA256                               ss       10        ≈ 10⁻⁵                 s/op
